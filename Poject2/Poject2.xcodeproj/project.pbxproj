@@ -14,6 +14,8 @@
 		B2A911671EA85CFB0079E87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A911651EA85CFB0079E87C /* LaunchScreen.storyboard */; };
 		B2A911721EA85CFB0079E87C /* Poject2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A911711EA85CFB0079E87C /* Poject2Tests.swift */; };
 		B2A9117D1EA85CFB0079E87C /* Poject2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9117C1EA85CFB0079E87C /* Poject2UITests.swift */; };
+		B2A9118B1EA864320079E87C /* TblVeiwControllerTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9118A1EA864320079E87C /* TblVeiwControllerTrips.swift */; };
+		B2A9118D1EA864670079E87C /* TblViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9118C1EA864670079E87C /* TblViewControllerTripInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B2A911781EA85CFB0079E87C /* Poject2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Poject2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A9117C1EA85CFB0079E87C /* Poject2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poject2UITests.swift; sourceTree = "<group>"; };
 		B2A9117E1EA85CFB0079E87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A9118A1EA864320079E87C /* TblVeiwControllerTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblVeiwControllerTrips.swift; sourceTree = "<group>"; };
+		B2A9118C1EA864670079E87C /* TblViewControllerTripInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTripInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				B2A9115C1EA85CFB0079E87C /* AppDelegate.swift */,
 				B2A9115E1EA85CFB0079E87C /* ViewController.swift */,
+				B2A9118C1EA864670079E87C /* TblViewControllerTripInfo.swift */,
+				B2A9118A1EA864320079E87C /* TblVeiwControllerTrips.swift */,
 				B2A911601EA85CFB0079E87C /* Main.storyboard */,
 				B2A911631EA85CFB0079E87C /* Assets.xcassets */,
 				B2A911651EA85CFB0079E87C /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A9118B1EA864320079E87C /* TblVeiwControllerTrips.swift in Sources */,
 				B2A9115F1EA85CFB0079E87C /* ViewController.swift in Sources */,
+				B2A9118D1EA864670079E87C /* TblViewControllerTripInfo.swift in Sources */,
 				B2A9115D1EA85CFB0079E87C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

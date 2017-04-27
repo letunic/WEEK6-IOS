@@ -16,6 +16,7 @@
 		B2A9117D1EA85CFB0079E87C /* Poject2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9117C1EA85CFB0079E87C /* Poject2UITests.swift */; };
 		B2A9118B1EA864320079E87C /* TblVeiwControllerTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9118A1EA864320079E87C /* TblVeiwControllerTrips.swift */; };
 		B2A9118D1EA864670079E87C /* TblViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A9118C1EA864670079E87C /* TblViewControllerTripInfo.swift */; };
+		B2F51C6D1EB19D9C007CEF73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F51C6C1EB19D9C007CEF73 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B2A9117E1EA85CFB0079E87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A9118A1EA864320079E87C /* TblVeiwControllerTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblVeiwControllerTrips.swift; sourceTree = "<group>"; };
 		B2A9118C1EA864670079E87C /* TblViewControllerTripInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTripInfo.swift; sourceTree = "<group>"; };
+		B2F51C6C1EB19D9C007CEF73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F51C6D1EB19D9C007CEF73 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				B2A911701EA85CFB0079E87C /* Poject2Tests */,
 				B2A9117B1EA85CFB0079E87C /* Poject2UITests */,
 				B2A9115A1EA85CFB0079E87C /* Products */,
+				B2F51C6B1EB19D9C007CEF73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +133,14 @@
 				B2A9117E1EA85CFB0079E87C /* Info.plist */,
 			);
 			path = Poject2UITests;
+			sourceTree = "<group>";
+		};
+		B2F51C6B1EB19D9C007CEF73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F51C6C1EB19D9C007CEF73 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +212,11 @@
 					B2A911581EA85CFB0079E87C = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					B2A9116C1EA85CFB0079E87C = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -513,6 +530,7 @@
 				B2A911831EA85CFB0079E87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2A911841EA85CFB0079E87C /* Build configuration list for PBXNativeTarget "Poject2Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				B2A911861EA85CFB0079E87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2A911871EA85CFB0079E87C /* Build configuration list for PBXNativeTarget "Poject2UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +548,7 @@
 				B2A911891EA85CFB0079E87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
